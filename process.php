@@ -48,7 +48,7 @@ if(ISSET($_POST['loginadmin'])){
 if(isset($_POST['form_submit'])){
    $process_fullName = $_POST['full_name'];
    $process_email = $_POST['email'];
-   $process_address = $_POST['address'];
+   $process_address = $_POST['Gender'];
    $process_phone = $_POST['phone'];
    $process_income = $_POST['income'];
    $process_course = $_POST['course'];
